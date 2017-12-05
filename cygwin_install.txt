@@ -1,0 +1,10 @@
+可以用cygwin的setup.exe搜索需要的包，如:git,gcc,gdb.openssh等
+
+如果安装完了没有及时安装需要的包，可以用如下命令安装命令apt-cyg
+
+lynx -source rawgit.com/transcode-open/apt-cyg/master/apt-cyg > apt-cyg
+install apt-cyg /bin
+
+用法：
+apt-cyg install git
+
