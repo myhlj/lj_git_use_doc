@@ -21,6 +21,11 @@ git fetch origin pull/ID/head:BRANCHNAME
 
 如果远程分支删除了,本地分支还在
 可以用git remote prune origin 同步
+
+修改远程仓库地址
+git remote set-url origin [url]
+
+
 一、远程仓库有master和dev分支
 1. 克隆代码
 git clone https://github.com/master-dev.git  
